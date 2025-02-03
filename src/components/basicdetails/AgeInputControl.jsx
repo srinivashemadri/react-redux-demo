@@ -1,8 +1,10 @@
 import {useDispatch} from "react-redux";
-import {updateAge} from "../redux/reducer/formSlice";
+import {updateAge} from "../../redux/reducer/formSlice";
 
 export const AgeInputControl = () =>{
     const dispatch = useDispatch();
+
+    console.log('AgeInputControl re-rendered');
 
     return(
         <input

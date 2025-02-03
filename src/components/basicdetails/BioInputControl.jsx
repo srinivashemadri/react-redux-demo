@@ -1,5 +1,5 @@
 import {useDispatch} from "react-redux";
-import {updateBio} from "../redux/reducer/formSlice";
+import {updateBio} from "../../redux/reducer/formSlice";
 
 export const BioInputControl = () =>{
     const dispatch = useDispatch();

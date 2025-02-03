@@ -1,5 +1,5 @@
 import {useDispatch} from "react-redux";
-import {updateGender} from "../redux/reducer/formSlice";
+import {updateGender} from "../../redux/reducer/formSlice";
 
 export const GenderInputControl = () =>{
     const dispatch = useDispatch();

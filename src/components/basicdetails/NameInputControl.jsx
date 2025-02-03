@@ -1,5 +1,5 @@
 import {useDispatch} from "react-redux";
-import {updateName} from "../redux/reducer/formSlice";
+import {updateName} from "../../redux/reducer/formSlice";
 
 export const NameInputControl = () =>{
     const dispatch = useDispatch();
